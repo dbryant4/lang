@@ -25,4 +25,4 @@ t_ignore = ' '
 def t_error(t):
     raise Exception('LexerException: ' + t.value[0])
 
-lex.lex()
+lexer = lex.lex()
